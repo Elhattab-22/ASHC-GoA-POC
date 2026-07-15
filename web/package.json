@@ -1,0 +1,31 @@
+{
+  "name": "ashc-goa-poc",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@abgov/design-tokens": "latest",
+    "@abgov/react-components": "latest",
+    "@abgov/ui-components-common": "latest",
+    "@abgov/web-components": "latest",
+    "axios": "latest",
+    "leaflet": "^1.9.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-leaflet": "^5.0.0",
+    "react-router-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.21",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}
